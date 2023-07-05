@@ -1,11 +1,2 @@
 #!/bin/bash
-
-for file in *.html; do
-    if [ -f "../$file" ]; then
-        if [ "$file" -nt "../$file" ]; then
-            cp "$file" "../$file"
-        fi
-    else
-        cp "$file" "../$file"
-    fi
-done
+cp *.html ..
