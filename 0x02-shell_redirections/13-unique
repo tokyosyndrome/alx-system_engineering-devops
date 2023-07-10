@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u -d list
+sort -u -d
