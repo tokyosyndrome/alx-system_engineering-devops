@@ -1,2 +1,2 @@
 #!/bin/bash
-(sort -t$'\t' -k3 -nr | cut -f1 | head -n 12 | tail -n 11)
+(sort -t$'\t' -k3 -nr | cut -f1 | head -nr 12 | tail -n 11)
